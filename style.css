@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Julius+Sans+One&family=Megrim&family=Permanent+Marker&display=swap');
+
+
+
+body{
+/*deletes space on sides and top*/
+	margin: 0;
+	background-color: #f9f4eb;
+}
+
+.header{
+	height: 80px;
+	width: 100%; 
+	background-color: white;
+
+	justify-content: space-between;
+	position: fixed;
+	z-index: 100;
+	padding:0;
+	margin: 0; 
+/*	border-style: solid;*/
+
+
+}
+
+.logo{
+
+	margin-left: 79px;
+    align-content: center;
+    cursor: pointer;
+    transition: 0.15s; 
+    height: 80%;
+    margin-top: 10px;
+
+
+}
+
+.vid-container{
+
+	width: 100%;
+	height: auto;
+
+
+}
+
+
+
+.heading1{ 
+
+	font-family: outfit;
+	margin-top: -520px;
+	text-align: center;
+	font-size: 80px;
+	color: #f9f4eb;
+	opacity: 0.7;
+
+ }
+
+ .heading2{
+
+ 	font-family: Permanent Marker;
+	margin-top: -100px;
+	text-align: center;
+	font-size: 120px;
+/*	color: #f9f4eb;*/
+    color: #9ecfe1;
+
+ }
+
+
+ .heading3{
+ 	font-family: outfit;
+	margin-top: -120px;
+	text-align: center;
+	font-size: 80px;
+	color: #f9f4eb;
+	opacity: 0.7;
+
+ }
+
+
+.video{
+    width: 100%;
+    height: auto; 
+    object-fit: contain;
+}
+
+/* The following will play the video without the bottom 
+   video feature/controls like pause and skip and play being
+   visible */
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+
+video::-webkit-media-controls {
+	opacity: 0;
+
+}
+
+.nav{
+	height: 90px;
+	width: 90px;
+/*	background-color: blue;*/
+/*	flex-direction: row;*/
+	margin-top: -530px; 
+
+
+}
+
+.nav1, .nav2{
+	width: 100%;
+    height: auto; 
+    object-fit: contain;
+    object-position: right;
+    margin-left: 1400px;
+
+
+
+}
+
+.about-me{
+	width: 90%;
+	height: auto;
+/*	background-color: blue;*/
+	margin-top: 700px;
+	margin-left: 90px;
+
+}
+
+
+.pic-border{
+	width: 500px;
+	height: auto;
+
+
+}
+
+.about-pic{
+	width: 500px;
+	height: auto;
+/* HELP FROM: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius	*/
+/*border-radius:top-left-and-bottom-right | top-right-and-bottom-left */
+	border-radius: 10px 100px / 120px;
+
+}
+
+
+.our-st{
+
+	margin-left: 685px;
+	margin-top: -610px;
+	font-family: futura;
+	font-size: 55px;
+
+}
+
+.our-st2{
+
+	opacity: 0.8;
+	margin-left: 685px;
+	margin-top: 10px;
+	font-family: futura;
+	font-size: 30px;
+
+
+}
+
+
+.end-graphic{
+	margin-top: -750px;
+	width: 100%;
+	height: auto;
+
+}
+
+
+
